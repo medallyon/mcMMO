@@ -51,7 +51,7 @@ jobs:
 
     # 4. Build via Maven 
     - name: Build via Maven
-      run: mvn clean install
+      run: mvn install
 
     # 5. Upload artifact
     - name: Upload target artifact
